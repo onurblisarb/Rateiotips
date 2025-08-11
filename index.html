@@ -1,110 +1,130 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Rateio Tips — Grupo de Prévia Gratuito</title>
-  <meta name="description" content="Entre no grupo gratuito do Rateio Tips e receba prévias de 5 tipsters VIP. Economize até R$499,50 por mês. Link direto: t.me/rateiotips" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rateio Tips - Grupo VIP de Apostas</title>
   <style>
-    :root{
-      --bg:#0b0b0c;
-      --card:#0f1720;
-      --white:#ffffff;
-      --muted:#bfc7ce;
-      --accent:#f5c400;
-      --green:#19a974;
-      --radius:14px;
-      --maxw:900px;
-    }
-    *{box-sizing:border-box}
-    html,body{height:100%}
-    body{
-      margin:0;
-      font-family:Inter,system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
-      background:linear-gradient(180deg,var(--bg),#071023 120%);
-      color:var(--white);
-      -webkit-font-smoothing:antialiased;
-      -moz-osx-font-smoothing:grayscale;
-      display:flex;
-      align-items:center;
-      justify-content:center;
-      padding:28px;
-    }
-    .container{
-      width:100%;
-      max-width:var(--maxw);
-      background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
-      border-radius:18px;
-      padding:28px;
-      box-shadow: 0 10px 30px rgba(2,6,23,0.6);
-      border:1px solid rgba(255,255,255,0.03);
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #0a0a0a;
+      color: #fff;
     }
 
-    header{
-      display:flex;
-      align-items:center;
-      gap:16px;
-      margin-bottom:18px;
-    }
-    .logo {
-      width:86px;
-      height:86px;
-      flex:0 0 86px;
-      display:flex;
-      align-items:center;
-      justify-content:center;
-      border-radius:12px;
-      background:linear-gradient(180deg,#000,#111);
-    }
-    .brand h1{margin:0;font-size:20px;letter-spacing:0.2px}
-    .brand p{margin:0;color:var(--muted);font-size:13px}
-
-    .grid{
-      display:grid;
-      grid-template-columns:1fr 360px;
-      gap:22px;
+    header {
+      text-align: center;
+      padding: 20px;
+      background-color: #111;
     }
 
-    /* HERO */
-    .hero h2{
-      margin:0 0 12px 0;
-      font-size:30px;
-      line-height:1.05;
-      font-weight:800;
-    }
-    .hero p.lead{
-      margin:0 0 18px 0;
-      color:var(--muted);
-      font-size:16px;
-      max-width:56ch;
+    header img {
+      max-width: 150px;
     }
 
-    /* card (right) */
-    .card{
-      background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
-      border-radius:12px;
-      padding:18px;
-      border:1px solid rgba(255,255,255,0.03);
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 20px;
     }
-    .priceTag{
-      display:flex;
-      align-items:center;
-      justify-content:space-between;
-      gap:12px;
-      margin-bottom:14px;
-    }
-    .priceTag .price{
-      background: linear-gradient(90deg,#000,#111);
-      padding:10px 14px;
-      border-radius:10px;
-      font-weight:800;
-      color:var(--accent);
-      font-size:20px;
-    }
-    .priceTag .subtitle{color:var(--muted);font-size:13px}
 
-    .cta{
+    h1 {
+      color: #ffcc00;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .benefits {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .benefit {
+      background-color: #1a1a1a;
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+      flex: 1 1 250px;
+      max-width: 300px;
+    }
+
+    .benefit h3 {
+      color: #ffcc00;
+      margin-bottom: 10px;
+    }
+
+    .cta {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .cta a {
+      display: inline-block;
+      background-color: #ffcc00;
+      color: #000;
+      padding: 15px 30px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 18px;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    .cta a:hover {
+      background-color: #e6b800;
+    }
+
+    /* Responsividade */
+    @media (max-width: 768px) {
+      .benefits {
+        flex-direction: column;
+        align-items: center;
+      }
+      header img {
+        max-width: 120px;
+      }
+      h1 {
+        font-size: 24px;
+      }
+      .cta a {
+        font-size: 16px;
+        padding: 12px 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Rateio Tips Logo">
+  </header>
+
+  <div class="container">
+    <h1>Receba entradas de 10 grupos VIP por apenas R$49,90/mês</h1>
+
+    <div class="benefits">
+      <div class="benefit">
+        <h3>💡 10 Grupos VIP</h3>
+        <p>Acesso às melhores análises e entradas dos tipsters mais renomados.</p>
+      </div>
+      <div class="benefit">
+        <h3>💰 Economia Mensal</h3>
+        <p>Economize até R$499,90 por mês em assinaturas individuais.</p>
+      </div>
+      <div class="benefit">
+        <h3>📋 Entradas Organizadas</h3>
+        <p>Todas as entradas reunidas em um só lugar, de forma prática e rápida.</p>
+      </div>
+    </div>
+
+    <div class="cta">
+      <a href="https://t.me/rateiotips" target="_blank">Entrar no Grupo Grátis</a>
+    </div>
+  </div>
+</body>
+</html>    .cta{
       display:block;
       width:100%;
       text-align:center;
